@@ -20,7 +20,7 @@ The bash script</font> titled automated_tester.sh can be used to run different t
 <li>`DEFAULT_DIFF` : The default program used to check if the output is correct by matching with correct output. For example an output file with the same number of each individual digit can be checked against the correct output and return no output if the digits match. REQUIREMENT FOR DIFF : The checking program needs to output nothing if there is a match between the output and the correct output and return the details of the mismatch if there is a mismatch</li>
 </ul>
 
-# How To Run
+## How To Run
 The script can be run after programming the script's behaviour by typing 
 
   `bash automated_tester.sh <--verbose or -v>` 
