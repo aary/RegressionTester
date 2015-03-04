@@ -4,7 +4,7 @@ A simple yet powerful bash script to run programmable regression tests on your p
 ## Details
 The bash script</font> titled automated_tester.sh can be used to run different types of automated unit testing to speed up development. The script has constants around the top of the file which have to be manually programmed to produce the correct tests. Providing a more powerful configuration mechanism would be overkill and wouldn't acheive any useful purpose. There are 8 default constants that need to be configured
 
-<ol>
+<ul>
 <li>`INPUT_FILES` : The names of your input test files need to go here. i.e. the files you will use as standard input to your program. For example in the repository there are test files called `test_for_regressor$x.txt`</FONT> which serve as input to the program testWithInput.cpp. NOTE : The first line of these tests have to have the command line arguments that will be used to execute the program in this format "`// COMMAND LINE ARGUMENTS FOR TEST : `<the arguments here>"</li>
 <li>`CORRECT_OUTPUT_FILES` : This will be the names of the output files that have matching suffixes when compared to the input files. For example the repository has `testOutputCorrect1.txt` and `testOutputCorrect2.txt` which are outputs of `test_for_regressor1.txt` and `test_for_regressor2.txt`</li>
 <li>`PROGRAM` : This contains the file with the main() function that needs to be compiled</li>
