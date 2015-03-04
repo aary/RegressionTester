@@ -1,4 +1,4 @@
-# SOME INFORMATION ABOUT SCRIPT
+3# SOME INFORMATION ABOUT SCRIPT
 # enter the following command to run the script 
 #     bash automated_test.sh                 -> to run without diff output
 #     bash automated_test.sh --verbose / -v  -> to run with output printed   
