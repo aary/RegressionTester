@@ -6,7 +6,7 @@ The bash script</font> titled automated_tester.sh can be used to run different t
 
 <ol>
 <li>`INPUT_FILES` : The names of your input test files need to go here. i.e. the files you will use as standard input to your program. For example in the repository there are test files called `test_for_regressor$x.txt`</FONT> which serve as input to the program testWithInput.cpp. NOTE : The first line of these tests have to have the command line arguments that will be used to execute the program in this format "`// COMMAND LINE ARGUMENTS FOR TEST : `<the arguments here>"</li>
-li {margin-top: 1em;}`CORRECT_OUTPUT_FILES` : This will be the names of the output files that have matching suffixes when compared to the input files. For example the repository has `testOutputCorrect1.txt` and `testOutputCorrect2.txt` which are outputs of `test_for_regressor1.txt` and `test_for_regressor2.txt`</li>
+<li>`CORRECT_OUTPUT_FILES` : This will be the names of the output files that have matching suffixes when compared to the input files. For example the repository has `testOutputCorrect1.txt` and `testOutputCorrect2.txt` which are outputs of `test_for_regressor1.txt` and `test_for_regressor2.txt`</li>
 <li>`PROGRAM` : This contains the file with the main() function that needs to be compiled</li>
 <li>`EXTRA_DEPENDANCIES` : This contains extra files that need to be compiled as seperate modules. For example a project can be compiled as such `g++ file_with_main other_files` so here `other_files` will be the extra_dependancies.</li>
 <li>`COMPILER` : The compiler for the compilation.</li>
