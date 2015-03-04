@@ -17,14 +17,14 @@
 
 # ********************************* CONSTANTS ********************************
 # The name for the file with input and correct output
-input_files="test_for_regressor"
-correct_output_files="testOutputCorrect"
+INPUT_FILES="test_for_regressor"
+CORRECT_OUTPUT_FILES="testOutputCorrect"
 
 # The name of the program to test
-program=testWithInput.cpp
+PROGRAM=testWithInput.cpp
 
 # Add any extra files that need to be compiled to run the program here
-extra_dependancies=""
+EXTRA_DEPENDANCIES=""
 
 # The compiler to use 
 COMPILER="g++"
@@ -34,7 +34,7 @@ FLAGS="-std=c++11 -O3 -pedantic -Wall -Werror -Wvla"
 
 # The command used to compile the code, change to compile with custom
 # compilation command
-COMPILE="$COMPILER $FLAGS $program $extra_dependancies"
+COMPILE="$COMPILER $FLAGS $PROGRAM $EXTRA_DEPENDANCIES"
 
 # The standard program used to match against a correct output file and 
 # output nothing if the output of the program correctly matches and output
@@ -109,10 +109,10 @@ function process_results () {
 
 
 
-# i has the names of programs that start with $input_files and end
+# i has the names of programs that start with $INPUT_FILES and end
 # with whatever after that
 COUNTER=1
-for test_file in $( ls $input_files*.txt ); do
+for test_file in $( ls $INPUT_FILES*.txt ); do
     echo -e "------------- TEST $COUNTER --------------"
     echo -e "Executing test : " $test_file
 
@@ -140,7 +140,7 @@ for test_file in $( ls $input_files*.txt ); do
 
 
     # Diff the output and store the output of diff into a variable
-    diff_output="$($DEFAULT_DIFF -w testOutput "$correct_output_files""$COUNTER".txt)"
+    diff_output="$($DEFAULT_DIFF -w testOutput "$CORRECT_OUTPUT_FILES""$COUNTER".txt)"
 
 
 
