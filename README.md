@@ -15,6 +15,7 @@ The bash script</font> titled automated_tester.sh can be used to run different t
 
 # How To Run
 The script can be run after programming the script's behaviour by typing 
+
   `bash automated_tester.sh <--verbose or -v>` 
 with or without the verbose command. With verbose the script will inform the user of the memory usage, the time taken and further details about the mismatch in the output produced by the program as compared to the actual correct output.
   
