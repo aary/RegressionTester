@@ -1,3 +1,6 @@
+# Developed by Aaryaman Sagar
+# Email at rmn100@gmail.com
+#
 # SOME INFORMATION ABOUT SCRIPT
 # enter the following command to run the script 
 #     bash automated_test.sh                 -> to run without diff output
