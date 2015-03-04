@@ -1,5 +1,5 @@
 # RegressionTester
-A simple yet powerful bash script to run programmable regression tests on your program
+A simple yet powerful bash script to run automated and programmable regression unit tests on your program
 
 ## Details
 The bash script</font> titled automated_tester.sh can be used to run different types of automated unit testing to speed up development. The script has constants around the top of the file which have to be manually programmed to produce the correct tests. Providing a more powerful configuration mechanism would be overkill and wouldn't acheive any useful purpose. There are 8 default constants that need to be configured
