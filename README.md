@@ -20,3 +20,5 @@ The script can be run after programming the script's behaviour by typing
   
 with or without the verbose command. With verbose the script will inform the user of the memory usage, the time taken and further details about the mismatch in the output produced by the program as compared to the actual correct output.
   
+## Extending the script
+This script is designed to be incorporated into any program that needs to do any sort of testing. It can be easily wrapped in a program written in a high level programming language such as C++ or Python. When ran in verbose mode the script provides easy to parse output.
