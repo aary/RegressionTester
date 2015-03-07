@@ -24,7 +24,7 @@ INPUT_FILES="test_for_regressor"
 CORRECT_OUTPUT_FILES="testOutputCorrect"
 
 # The name of the program to test
-PROGRAM=testWithInput.cpp
+PROGRAM="testWithInput.cpp"
 
 # Add any extra files that need to be compiled to run the program here
 EXTRA_DEPENDANCIES=""
